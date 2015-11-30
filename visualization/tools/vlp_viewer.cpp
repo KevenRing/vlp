@@ -1,7 +1,8 @@
 /*
  * Software License Agreement (BSD License)
  *
- *  Copyright (c) 2011, The MITRE Corporation
+ *  Copyright (c) 2015-, Open Perception, Inc.
+ *  Copyright (c) 2015, The MITRE Corporation
  *  All rights reserved.
  *
  *  Redistribution and use in source and binary forms, with or without
