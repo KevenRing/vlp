@@ -48,11 +48,6 @@
 #include <string>
 
 #define HDL_Grabber_toRadians(x) ((x) * M_PI / 180.0)
-#define HDL_DATA_PORT 2368
-#define HDL_NUM_ROT_ANGLES 36001
-#define HDL_LASER_PER_FIRING 32
-#define HDL_MAX_NUM_LASERS 64
-#define HDL_FIRING_PER_PKT 12
 
 namespace pcl
 {
@@ -188,6 +183,11 @@ namespace pcl
       getMaximumDistanceThreshold ();
 
     protected:
+      static const int HDL_DATA_PORT = 2368;
+      static const int HDL_NUM_ROT_ANGLES = 36001;
+      static const int HDL_LASER_PER_FIRING = 32;
+      static const int HDL_MAX_NUM_LASERS = 64;
+      static const int HDL_FIRING_PER_PKT = 12;
       enum HDLBlock
       {
         BLOCK_0_TO_31 = 0xeeff, BLOCK_32_TO_63 = 0xddff
